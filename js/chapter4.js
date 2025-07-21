@@ -1,278 +1,1244 @@
 var chapter4 = {
-    title: '第四章 - 犯罪客体',
-    content: '犯罪客体知识体系梳理',
-    children: [
+    "content": "法人",
+    "children": [
         {
-            content: '<strong>犯罪客体总览</strong>',
-            children: [
+            "content": "法人（第四章）",
+            "children": [
                 {
-                    content: '概念：犯罪活动侵害、刑法保护的社会利益（社会关系 ），是犯罪构成必备要件',
-                    children: [],
-                    payload: { tag: 'li', lines: '1,2' }
+                    "content": "备考点睛",
+                    "children": [
+                        {
+                            "content": "内容：作为民事权利主体的法人制度，从纵横逻辑理解《民法典》规定，含法人“一生”（设立、存续等阶段）及具体类型（营利、非营利、特别法人 ）",
+                            "children": [],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "2,3"
+                            }
+                        },
+                        {
+                            "content": "要求：了解含义，掌握分类；了解法人人格否认规则；掌握设立、法定代表人、终止等规则",
+                            "children": [],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "3,4"
+                            }
+                        }
+                    ],
+                    "payload": {
+                        "tag": "h2",
+                        "lines": "1,2"
+                    }
                 },
                 {
-                    content: '体现：刑法明文规定；通过犯罪客观方面表述反映',
-                    children: [],
-                    payload: { tag: 'li', lines: '2,3' }
-                },
-                {
-                    content: '分类：一般客体（一切犯罪共同侵害的社会利益总体 ）、同类客体（某一类犯罪共同侵害的社会利益 ）、直接客体（某一犯罪直接侵害的特定社会利益 ，含简单/复杂客体，复杂客体分主要、次要客体 ）',
-                    children: [],
-                    payload: { tag: 'li', lines: '3,4' }
-                },
-                {
-                    content: '与对象关系：对象是犯罪行为侵犯/指向的具体人、物、信息；客体是本质，对象是载体；客体是犯罪构成必备，对象非必备；客体决定犯罪性质、分类，对象不必然',
-                    children: [],
-                    payload: { tag: 'li', lines: '4,6' }
+                    "content": "第一节 法人概述",
+                    "children": [
+                        {
+                            "content": "一、法人的概念与特征",
+                            "children": [
+                                {
+                                    "content": "概念：具有民事权利能力和行为能力，依法独立享有权利、承担义务的组织",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "6,7"
+                                    }
+                                },
+                                {
+                                    "content": "特征",
+                                    "children": [
+                                        {
+                                            "content": "是社会组织",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "8,9"
+                                            }
+                                        },
+                                        {
+                                            "content": "有民事权利能力和行为能力，以自己名义参与民事活动",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "9,10"
+                                            }
+                                        },
+                                        {
+                                            "content": "可独立享有权利、履行义务、承担责任（与非法人组织主要区别 ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "10,11"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "7,11"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "5,6"
+                            }
+                        },
+                        {
+                            "content": "二、法人的分类",
+                            "children": [
+                                {
+                                    "content": "（一）理论分类（公法人与私法人、社团法人与财团法人 ）",
+                                    "children": [
+                                        {
+                                            "content": "公法人与私法人",
+                                            "children": [
+                                                {
+                                                    "content": "划分：公法私法区分产物，通说“综合说”",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "14,15"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "公法人：依国家意思设立，目的事业法定，加入有强制，人事国家任免，不得擅自设立解散",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "15,16"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "私法人：私人设立，内部关系平等，经营私法事业，成员大会可决定解散",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "16,17"
+                                                    }
+                                                }
+                                            ],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "13,17"
+                                            }
+                                        },
+                                        {
+                                            "content": "社团法人与财团法人（以成立基础为标准 ）\n<table data-lines=\"18,26\">\n<thead data-lines=\"18,19\">\n<tr data-lines=\"18,19\">\n<th>比较内容</th>\n<th>社团法人</th>\n<th>财团法人</th>\n</tr>\n</thead>\n<tbody data-lines=\"20,26\">\n<tr data-lines=\"20,21\">\n<td>成立基础</td>\n<td>人的集合</td>\n<td>捐助财产</td>\n</tr>\n<tr data-lines=\"21,22\">\n<td>设立人地位</td>\n<td>通常为法人成员</td>\n<td>并非财团法人成员</td>\n</tr>\n<tr data-lines=\"22,23\">\n<td>设立行为</td>\n<td>多方法律行为</td>\n<td>单方法律行为（含遗嘱）</td>\n</tr>\n<tr data-lines=\"23,24\">\n<td>意思机关</td>\n<td>有</td>\n<td>无</td>\n</tr>\n<tr data-lines=\"24,25\">\n<td>目的事业</td>\n<td>营利、公益或其他非营利</td>\n<td>限公益目的</td>\n</tr>\n<tr data-lines=\"25,26\">\n<td>解散原因及后果</td>\n<td>多样化（如成员协议）</td>\n<td>期限届满或财产不足解散；剩余财产不得分配，继续服务公益</td>\n</tr>\n</tbody>\n</table>",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "17,26"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "h4",
+                                        "lines": "12,13"
+                                    }
+                                },
+                                {
+                                    "content": "（二）《民法典》分类（营利法人、非营利法人、特别法人 ）",
+                                    "children": [
+                                        {
+                                            "content": "营利法人",
+                                            "children": [
+                                                {
+                                                    "content": "定义：以取得利润并分配给股东等出资人为目的的法人",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "28,29"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "类型：有限责任公司、股份有限公司、其他企业法人等",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "29,30"
+                                                    }
+                                                }
+                                            ],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "27,30"
+                                            }
+                                        },
+                                        {
+                                            "content": "非营利法人",
+                                            "children": [
+                                                {
+                                                    "content": "定义：为公益或其他非营利目的，不向出资人等分配利润的法人",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "31,32"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "类型：事业单位、社会团体、基金会、社会服务机构等",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "32,33"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "区别：经营利润/收益是否分配给成员或设立人",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "33,34"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "典型真题：非营利性法人包括社会团体法人、事业单位法人（选项B、C ）",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "34,35"
+                                                    }
+                                                }
+                                            ],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "30,35"
+                                            }
+                                        },
+                                        {
+                                            "content": "特别法人",
+                                            "children": [
+                                                {
+                                                    "content": "定义：不能简单归入营利、非营利法人的法人",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "36,37"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "类型：机关法人、农村集体经济组织法人、城镇农村合作经济组织法人、基层群众性自治组织法人",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "37,38"
+                                                    }
+                                                }
+                                            ],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "35,38"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "h4",
+                                        "lines": "26,27"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "11,12"
+                            }
+                        }
+                    ],
+                    "payload": {
+                        "tag": "h2",
+                        "lines": "4,5"
+                    }
                 }
             ],
-            payload: { tag: 'h2', lines: '0,1' }
+            "payload": {
+                "tag": "h1",
+                "lines": "0,1"
+            }
         },
         {
-            content: '<strong>犯罪客体的概念及其内容</strong>',
-            children: [
+            "content": "法人的具体类型（第四章第二节）",
+            "children": [
                 {
-                    content: '（一）犯罪客体的概念',
-                    children: [
+                    "content": "一、营利法人",
+                    "children": [
                         {
-                            content: '定义：犯罪活动侵害、为刑法所保护的社会利益（社会关系 ），是犯罪构成必备要件，行为构成犯罪根本原因是侵害法律保护的社会利益',
-                            children: [],
-                            payload: { tag: 'li', lines: '8,9' }
-                        },
-                        {
-                            content: '内涵体现',
-                            children: [
+                            "content": "（一）营利法人概述",
+                            "children": [
                                 {
-                                    content: '是社会生活利益（国家、社会、个人利益，如政治、经济、安全、人身等利益 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '10,11' }
+                                    "content": "定义：以取得利润并分配给股东等出资人为目的的法人，含有限责任公司、股份有限公司等",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "41,42"
+                                    }
                                 },
                                 {
-                                    content: '由刑法保护（刑法目的是保护社会生活利益，免受不法侵害，维护秩序；道德/纪律调整的社会关系，非刑法保护，不属犯罪客体 ，如恋爱关系 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '11,12' }
-                                },
-                                {
-                                    content: '被犯罪行为侵害（刑法保护的利益，既被保护又被犯罪侵害时，才是犯罪客体 ，如生命利益受保护，只有被犯罪侵害时才成犯罪客体 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '12,13' }
+                                    "content": "成立：依法登记成立，营业执照签发日期为成立日期",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "42,43"
+                                    }
                                 }
                             ],
-                            payload: { tag: 'li', lines: '9,13' }
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "40,41"
+                            }
                         },
                         {
-                            content: '示例',
-                            children: [
+                            "content": "（二）营利法人的机构",
+                            "children": [
                                 {
-                                    content: '女（15 周岁 ）自愿与已满 14 周岁男发生性关系，男无强制，因女性性权利此时非刑法保护利益，不构成强奸罪；但男与养女自愿发生，构成负有照护职责人员性侵罪（保护特定女性利益 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '14,15' }
-                                },
-                                {
-                                    content: '甲欠乙债务不还，属民法调整，非刑法保护利益，不构成犯罪；甲有能力却拒不执行法院生效判决，因法院判决权威性是刑法保护利益，构成拒不执行判决罪',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '15,17' }
+                                    "content": "<table data-lines=\"44,49\">\n<thead data-lines=\"44,45\">\n<tr data-lines=\"44,45\">\n<th>组织机构</th>\n<th>设置要求</th>\n<th>行使职权</th>\n<th>设置目的</th>\n<th>表现形式</th>\n</tr>\n</thead>\n<tbody data-lines=\"46,49\">\n<tr data-lines=\"46,47\">\n<td>权力机构</td>\n<td>应当设立</td>\n<td>修改章程；选举/更换执行、监督机构成员；法人章程规定的其他职权</td>\n<td>确保出资人利益、投资回报</td>\n<td>股东会</td>\n</tr>\n<tr data-lines=\"47,48\">\n<td>执行机构</td>\n<td>应当设立</td>\n<td>召集权力机构会议；决定经营计划、投资方案；决定内部管理机构设置；法人章程规定的其他职权</td>\n<td>执行权力机构决定，董事长等可任法定代表人</td>\n<td>董事会或执行董事</td>\n</tr>\n<tr data-lines=\"48,49\">\n<td>监督机构</td>\n<td>原则设立（依《公司法（2023 修订）》，小公司等可例外 ）</td>\n<td>检查法人财务；监督执行机构成员等执行职务行为；法人章程规定的其他职权</td>\n<td>防止执行机构成员等违规</td>\n<td>监事会或监事</td>\n</tr>\n</tbody>\n</table>",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "table",
+                                        "lines": "44,49"
+                                    }
                                 }
                             ],
-                            payload: { tag: 'li', lines: '13,17' }
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "43,44"
+                            }
+                        },
+                        {
+                            "content": "（三）营利法人出资人的责任",
+                            "children": [
+                                {
+                                    "content": "责任承担：营利法人以全部财产担责；有限责任公司股东以认缴出资额、股份有限公司股东以认购股份为限担责",
+                                    "children": [
+                                        {
+                                            "content": "示例：大恒集团债务，股东许某原则上不担责（法人独立人格 ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "51,52"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "50,52"
+                                    }
+                                },
+                                {
+                                    "content": "法人人格否认：出资人滥用法人独立地位和有限责任损债权人利益，对债务连带担责",
+                                    "children": [
+                                        {
+                                            "content": "示例：许某与大恒集团财产混同，债权人可要求许某连带担责",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "53,54"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "52,54"
+                                    }
+                                },
+                                {
+                                    "content": "出资人权利保护：出资人滥用权利损法人或其他出资人利益，承担民事责任",
+                                    "children": [
+                                        {
+                                            "content": "示例：许某滥用权利致大恒集团或其他股东损失，需赔偿",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "55,56"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "54,56"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "49,50"
+                            }
                         }
                     ],
-                    payload: { tag: 'h3', lines: '7,8' }
+                    "payload": {
+                        "tag": "h2",
+                        "lines": "39,40"
+                    }
                 },
                 {
-                    content: '（二）犯罪客体的体现',
-                    children: [
+                    "content": "二、非营利法人",
+                    "children": [
                         {
-                            content: '刑法条文明确规定：如《刑法》第 103 条分裂国家罪，规定客体为“国家的统一”；第 225 条非法经营罪，客体为“市场秩序”',
-                            children: [],
-                            payload: { tag: 'li', lines: '18,19' }
-                        },
-                        {
-                            content: '通过犯罪客观方面表述反映：如《刑法》第 170 条伪造货币罪，规定“伪造货币”行为，体现客体是金融管理秩序；第 236 条强奸罪，“强奸妇女”行为，体现客体是妇女的性权利',
-                            children: [],
-                            payload: { tag: 'li', lines: '19,21' }
-                        }
-                    ],
-                    payload: { tag: 'h3', lines: '17,18' }
-                },
-                {
-                    content: '（三）犯罪客体的种类',
-                    children: [
-                        {
-                            content: '一般客体：一切犯罪共同侵害的社会利益总体（社会主义社会利益总体 ），揭示犯罪社会危害性是对社会利益的危害，表明犯罪是个人与国家、社会的冲突',
-                            children: [],
-                            payload: { tag: 'li', lines: '22,23' }
-                        },
-                        {
-                            content: '同类客体：某一类犯罪共同侵害的社会利益，是犯罪分类基础，我国刑法分则依同类客体将犯罪分为十大类（如危害国家安全罪，同类客体是国家安全 ）',
-                            children: [
+                            "content": "（一）概述",
+                            "children": [
                                 {
-                                    content: '示例：甲放火烧乙家致乙死亡、火灾，危害公共安全，构成放火罪，同类客体是公共安全；若仅烧乙家未危及公共安全，构成故意杀人罪，同类客体是人身权利',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '24,25' }
+                                    "content": "定义：为公益或其他非营利目的，不向出资人等分配利润的法人，含事业单位、社会团体、基金会、社会服务机构等",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "58,59"
+                                    }
                                 },
                                 {
-                                    content: '示例：盗窃财物，同类客体是财产权（侵犯财产罪 ）；盗窃尸体，同类客体是社会秩序（妨害社会管理秩序罪 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '25,26' }
+                                    "content": "“非营利” 指目的非营利，日常可开展营利活动",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "59,60"
+                                    }
                                 }
                             ],
-                            payload: { tag: 'li', lines: '23,26' }
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "57,58"
+                            }
                         },
                         {
-                            content: '直接客体：某一犯罪直接侵害的特定社会利益，可分',
-                            children: [
+                            "content": "（二）事业单位",
+                            "children": [
                                 {
-                                    content: '简单客体：犯罪行为只侵害一个利益（如盗窃罪，仅侵害财产权 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '27,28' }
+                                    "content": "定义：具备法人条件，为公益服务设立的事业单位（如央视、人大等 ）",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "61,62"
+                                    }
                                 },
                                 {
-                                    content: '复杂客体：犯罪行为侵害两个以上利益（如抢劫罪，侵害财产权和人身权 ），复杂客体分主要客体（刑法重点保护，决定犯罪在分则中的归属 ）、次要客体（影响定罪量刑，但不决定犯罪归属 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '28,29' }
+                                    "content": "成立：具备法人条件的，依法登记成立；依法不需登记的，成立日起具法人资格",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "62,63"
+                                    }
                                 },
                                 {
-                                    content: '示例：以勒索财物为目的绑架，直接客体是人身权利（主要 ）和财产权利（次要 ），规定在“侵犯公民人身权利、民主权利罪”一章；抢劫罪主要客体是财产权，规定在“侵犯财产罪”一章',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '29,31' }
+                                    "content": "机构：设理事会的，理事会为决策机构；法定代表人依法律等产生",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "63,64"
+                                    }
                                 }
                             ],
-                            payload: { tag: 'li', lines: '26,31' }
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "60,61"
+                            }
+                        },
+                        {
+                            "content": "（三）社会团体",
+                            "children": [
+                                {
+                                    "content": "定义：具备法人条件，基于会员意愿，为公益或会员共同利益设立的非营利法人（如各类协会等 ）",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "65,66"
+                                    }
+                                },
+                                {
+                                    "content": "成立：符合规定的，依法登记成立；依法不需登记的，成立日起具法人资格",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "66,67"
+                                    }
+                                },
+                                {
+                                    "content": "机构：需制定法人章程；设会员大会/代表大会等权力机构、理事会等执行机构；理事长等任法定代表人",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "67,68"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "64,65"
+                            }
+                        },
+                        {
+                            "content": "（四）捐助法人（2021 法单 11、单 21 ）",
+                            "children": [
+                                {
+                                    "content": "定义：具备法人条件，为公益目的，以捐助财产设立的基金会、社会服务机构等",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "69,70"
+                                    }
+                                },
+                                {
+                                    "content": "成立：符合条件的，依法登记成立；宗教活动场所具备条件的，可申请登记",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "70,71"
+                                    }
+                                },
+                                {
+                                    "content": "机构：需制定法人章程；设理事会、民主管理组织等决策机构及执行机构；理事长等任法定代表人；设监事会等监督机构",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "71,72"
+                                    }
+                                },
+                                {
+                                    "content": "利害关系人权利",
+                                    "children": [
+                                        {
+                                            "content": "捐助人可查询财产使用管理情况，提意见建议，捐助法人应如实答复",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "73,74"
+                                            }
+                                        },
+                                        {
+                                            "content": "决策等机构程序或内容违规，捐助人等可请求法院撤销，不影响善意相对人民事法律关系",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "74,75"
+                                            }
+                                        },
+                                        {
+                                            "content": "示例：王某捐 2000 万设 A 基金会，刘某违规捐赠，王某可撤销决定，赠与合同对 B 小学有效",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "75,76"
+                                            }
+                                        },
+                                        {
+                                            "content": "典型真题：捐助法人是为公益目的设立的非营利法人（选项 B 正确 ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "76,77"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "72,77"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "68,69"
+                            }
                         }
                     ],
-                    payload: { tag: 'h3', lines: '21,22' }
+                    "payload": {
+                        "tag": "h2",
+                        "lines": "56,57"
+                    }
                 },
                 {
-                    content: '（四）犯罪客体的意义',
-                    children: [
+                    "content": "三、特别法人（2019 法多 26、多 46 ）",
+                    "children": [
                         {
-                            content: '认识犯罪本质：犯罪本质是严重社会危害性，研究客体助于把握本质，如通过抢劫罪客体（财产权、人身权 ），理解其危害',
-                            children: [],
-                            payload: { tag: 'li', lines: '32,33' }
+                            "content": "（一）概述",
+                            "children": [
+                                {
+                                    "content": "定义：除营利、非营利法人外，具特殊性（行使公权力职能 ）的法人组织，设立、终止等有不同",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "79,80"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "78,79"
+                            }
                         },
                         {
-                            content: '准确定罪量刑：客体反映刑法条文目的，助于理解、适用条文。如《刑法》第 245 条非法侵入住宅罪，若客体是住宅权（财产权 ），侵入即构成；若客体是居住安宁权（人身权 ），需使他人不安、恐惧才构成',
-                            children: [],
-                            payload: { tag: 'li', lines: '33,34' }
+                            "content": "（二）机关法人",
+                            "children": [
+                                {
+                                    "content": "定义：有独立经费、承担行政职能的法定机构，成立日起可从事履职所需民事活动（如税务总局、公安局 ）",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "81,82"
+                                    }
+                                },
+                                {
+                                    "content": "成立时间：有独立经费、承担行政职能的法定机构，成立日起具法人资格",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "82,83"
+                                    }
+                                },
+                                {
+                                    "content": "被撤销后果：法人终止，民事权利义务由继任机关法人享有承担；无继任的，由作出撤销决定的机关法人享有承担",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "83,84"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "80,81"
+                            }
                         },
                         {
-                            content: '对定罪影响：客体不同，罪名不同。如甲趁乙醉酒取钱包，若仅侵害财产权，定盗窃罪；若利用乙无法反抗状态，侵害财产权和人身权，定抢劫罪',
-                            children: [],
-                            payload: { tag: 'li', lines: '34,35' }
+                            "content": "（三）农村集体经济组织法人",
+                            "children": [
+                                {
+                                    "content": "定义：一定村或乡镇社区范围内集体成员，利用土地等集体资源，资金与劳动联合合作发展的经济组织法人",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "85,86"
+                                    }
+                                },
+                                {
+                                    "content": "背景拓展：《农村集体经济组织法》2025 年 5 月 1 日施行，促农村集体经济发展",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "86,87"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "84,85"
+                            }
                         },
                         {
-                            content: '对犯罪形态影响：客体受侵害，犯罪达既遂。如甲控制妇女欲出卖，未卖出就被抓，因客体（人身权利 ）已受侵害，构成拐卖妇女罪既遂；甲抢劫致乙轻伤未得财物，因次要客体（人身权 ）受侵害，构成抢劫罪既遂',
-                            children: [],
-                            payload: { tag: 'li', lines: '35,36' }
+                            "content": "（四）城镇农村的合作经济组织法人",
+                            "children": [
+                                {
+                                    "content": "定义：同类产品或产业生产者、经营者、服务提供者等，自愿联合，互助合作、民主管理，实现成员利益的互助性经济组织法人",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "88,89"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "87,88"
+                            }
                         },
                         {
-                            content: '对罪数形态影响：侵害不同客体，数罪并罚；侵害相同/包含关系客体，定一罪。如甲绑架后强奸，侵害人身权利两个不同客体，数罪并罚；甲拐骗儿童后出卖，客体有包含关系，定拐卖儿童罪一罪',
-                            children: [],
-                            payload: { tag: 'li', lines: '36,38' }
+                            "content": "（五）基层群众性自治组织法人",
+                            "children": [
+                                {
+                                    "content": "定义：城市居民、农村村民依宪法法律，民主选举实现 “自我管理、自我教育、自我服务” 的基层自治社会组织法人（如居委会、村委会 ）",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "90,91"
+                                    }
+                                },
+                                {
+                                    "content": "典型真题：特别法人包括机关法人、农村集体经济组织法人（选项 A、D 正确 ）",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "91,92"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "89,90"
+                            }
                         }
                     ],
-                    payload: { tag: 'h3', lines: '31,32' }
+                    "payload": {
+                        "tag": "h2",
+                        "lines": "77,78"
+                    }
                 }
             ],
-            payload: { tag: 'h2', lines: '6,7' }
+            "payload": {
+                "tag": "h1",
+                "lines": "38,39"
+            }
         },
         {
-            content: '<strong>犯罪客体与犯罪对象</strong>',
-            children: [
+            "content": "法人的设立、变更和终止（第四章第三节）",
+            "children": [
                 {
-                    content: '（一）犯罪对象的概念与意义',
-                    children: [
+                    "content": "一、法人的设立",
+                    "children": [
                         {
-                            content: '概念：刑法规定，犯罪行为所侵犯或直接指向的具体人、物或信息（如故意杀人罪对象是人；盗窃罪对象是公私财物 ）',
-                            children: [],
-                            payload: { tag: 'li', lines: '40,41' }
-                        },
-                        {
-                            content: '意义',
-                            children: [
+                            "content": "（一）法人成立的条件",
+                            "children": [
                                 {
-                                    content: '决定某些犯罪成立：如猥亵儿童罪，对象须是不满 14 周岁儿童；贪污罪，对象须是公共财物',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '42,43' }
+                                    "content": "依法成立：依法律规定，含目的、宗旨、机构、经营范围等合法，成立程序（审核、登记 ）合法",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "95,96"
+                                    }
                                 },
                                 {
-                                    content: '影响某些犯罪区分：对象不同，犯罪性质不同。如抢劫财物（抢劫罪，客体财产权 ）与抢劫枪支（抢劫枪支罪，客体公共安全 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '43,44' }
+                                    "content": "有财产或经费：与业务相适应的物质保障",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "96,97"
+                                    }
                                 },
                                 {
-                                    content: '影响某些犯罪量刑：对象不同，社会危害性不同。如强奸已满 14 周岁女性与奸淫不满 14 周岁幼女，后者量刑更重',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '44,46' }
+                                    "content": "有自己的名称、组织机构和住所：名称唯一受保护（依《市场主体登记管理条例》 ）",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "97,98"
+                                    }
                                 }
                             ],
-                            payload: { tag: 'li', lines: '41,46' }
-                        }
-                    ],
-                    payload: { tag: 'h3', lines: '39,40' }
-                },
-                {
-                    content: '（二）犯罪对象的认定',
-                    children: [
-                        {
-                            content: '与组成犯罪之物不同：如贿赂罪中，用于贿赂的财物是组成犯罪之物，非犯罪对象（受贿罪对象是国家工作人员职务行为的廉洁性 ）',
-                            children: [],
-                            payload: { tag: 'li', lines: '47,48' }
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "94,95"
+                            }
                         },
                         {
-                            content: '与犯罪行为孳生之物不同：如制造毒品罪，毒品是犯罪行为孳生之物，非对象（对象是社会管理秩序等 ）',
-                            children: [],
-                            payload: { tag: 'li', lines: '48,49' }
-                        },
-                        {
-                            content: '与犯罪所用之物不同：如杀人用的枪支是犯罪所用之物（工具 ），对象是人（生命权 ）；诈骗用的伪造信用卡是工具，对象是他人财物（财产权 ）',
-                            children: [],
-                            payload: { tag: 'li', lines: '49,50' }
-                        },
-                        {
-                            content: '特殊情况：有些犯罪无对象（如脱逃罪 ）；有些犯罪有两个对象（如抢劫罪，对象是人和财物 ）',
-                            children: [],
-                            payload: { tag: 'li', lines: '50,52' }
-                        }
-                    ],
-                    payload: { tag: 'h3', lines: '46,47' }
-                },
-                {
-                    content: '（三）犯罪客体与犯罪对象的关系',
-                    children: [
-                        {
-                            content: '联系：对象是现象，客体是本质；客体存在于对象中，通过对象体现；犯罪行为侵害客体，常通过侵犯对象实现（如抢劫罪，通过侵犯人和财物，侵害财产权和人身权 ）',
-                            children: [],
-                            payload: { tag: 'li', lines: '53,54' }
-                        },
-                        {
-                            content: '区别',
-                            children: [
+                            "content": "（二）法人设立中行为的后果（《民法典》第75条 ）",
+                            "children": [
                                 {
-                                    content: '犯罪构成地位：客体是必备要件，对象不是（如脱逃罪无对象 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '55,56' }
+                                    "content": "以法人名义：法人成立则法人承受；法人未成立则设立人连带承受（二人以上，连带债权债务 ）",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "99,100"
+                                    }
                                 },
                                 {
-                                    content: '对犯罪性质影响：客体决定犯罪性质，对象不一定。如盗窃电线，偷库房备用电线（客体财产权，定盗窃罪 ）与偷输电线路电线（客体公共安全，定破坏电力设备罪 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '56,57' }
-                                },
-                                {
-                                    content: '犯罪分类作用：客体是犯罪分类基础，对象不是。如同样是珍贵文物，被盗时客体是财产权（定盗窃罪 ），被走私时客体是海关监管秩序（定走私文物罪 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '57,58' }
+                                    "content": "以设立人名义：第三人有权选择请求法人或设立人承担",
+                                    "children": [
+                                        {
+                                            "content": "示例：甲、乙、丙设立阳光公司，甲以公司名义签合同（公司成立则公司担责，未成立则设立人连带 ）；乙以自己名义签合同（戊公司可选择公司或乙担责 ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "101,102"
+                                            }
+                                        },
+                                        {
+                                            "content": "典型真题：甲为设立蓝天公司以个人名义租乙公司房屋，乙有权选择甲或蓝天公司支付（选项C ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "102,103"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "100,103"
+                                    }
                                 }
                             ],
-                            payload: { tag: 'li', lines: '54,58' }
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "98,99"
+                            }
+                        },
+                        {
+                            "content": "（三）法人的住所",
+                            "children": [
+                                {
+                                    "content": "以主要办事机构所在地为住所；需登记的，登记为住所；住所唯一",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "104,105"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "103,104"
+                            }
+                        },
+                        {
+                            "content": "（四）法人的组织机构",
+                            "children": [
+                                {
+                                    "content": "是对内管理、对外代表法人的机构，体现法人团体性，机关行为即法人行为，法人担责",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "106,107"
+                                    }
+                                },
+                                {
+                                    "content": "包括权力机构（股东会等 ）、执行机构（董事会等 ）、监督机构（监事会等 ），并非都设监督机构",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "107,108"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "105,106"
+                            }
+                        },
+                        {
+                            "content": "（五）法人的分支机构",
+                            "children": [
+                                {
+                                    "content": "经登记后以自己名义从事民事活动，责任由法人承担；可先以分支机构管理财产担责，不足则法人担责",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "109,110"
+                                    }
+                                },
+                                {
+                                    "content": "区分：分公司（分支机构 ）vs 子公司（独立法人 ）",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "110,111"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "108,109"
+                            }
                         }
                     ],
-                    payload: { tag: 'h3', lines: '52,53' }
+                    "payload": {
+                        "tag": "h2",
+                        "lines": "93,94"
+                    }
+                },
+                {
+                    "content": "二、法定代表人",
+                    "children": [
+                        {
+                            "content": "（一）在职权范围内签订合同的效力",
+                            "children": [
+                                {
+                                    "content": "以法人名义从事民事活动，后果法人承受；签合同需法定代表人签名或加盖公章，法人担责",
+                                    "children": [
+                                        {
+                                            "content": "示例：乙公司法定代表人李红签字，后变更为李蓝，甲公司仍可要求乙公司和李红担责（因签字时李红代表公司且个人连带 ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "114,115"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "113,115"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "112,113"
+                            }
+                        },
+                        {
+                            "content": "（二）越权代表订立合同的效力（《合同编通则解释》第20条 ）",
+                            "children": [
+                                {
+                                    "content": "超越法定权限",
+                                    "children": [
+                                        {
+                                            "content": "越法律、行政法规规定权限，相对人未尽合理审查义务，合同对法人不生效，法人不担责；法人有错则担赔偿责",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "117,118"
+                                            }
+                                        },
+                                        {
+                                            "content": "相对人尽合理审查义务，构成表见代表，合同对法人生效",
+                                            "children": [
+                                                {
+                                                    "content": "示例：阿宝让汪小姐（董事长 ）以宝珠公司担保，汪小姐越权（未开股东会 ），李孝尽审查义务则公司担责；未尽责则公司不担责",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "119,120"
+                                                    }
+                                                }
+                                            ],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "118,120"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "116,120"
+                                    }
+                                },
+                                {
+                                    "content": "超越内部权限",
+                                    "children": [
+                                        {
+                                            "content": "法人章程等对代表权限制，不得对抗善意相对人；相对人知情则合同对法人不生效",
+                                            "children": [
+                                                {
+                                                    "content": "示例：汪小姐越公司章程签合同，三羊公司不知情则公司担责；知情则不担责",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "122,123"
+                                                    }
+                                                }
+                                            ],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "121,123"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "120,123"
+                                    }
+                                },
+                                {
+                                    "content": "法人担责后，可向有错法定代表人追偿",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "123,124"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "115,116"
+                            }
+                        },
+                        {
+                            "content": "（三）职务侵权行为的责任（《民法典》第62条 ）",
+                            "children": [
+                                {
+                                    "content": "法定代表人执行职务致损，法人担责；法人可向有错法定代表人追偿",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "125,126"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "124,125"
+                            }
+                        }
+                    ],
+                    "payload": {
+                        "tag": "h2",
+                        "lines": "111,112"
+                    }
+                },
+                {
+                    "content": "三、法人的变更",
+                    "children": [
+                        {
+                            "content": "（一）法人的分立",
+                            "children": [
+                                {
+                                    "content": "类型",
+                                    "children": [
+                                        {
+                                            "content": "创设式分立：解散原法人，分立为新法人（如A→B、C ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "129,130"
+                                            }
+                                        },
+                                        {
+                                            "content": "存续式分立：原法人存续，分立出新法人（如A→新A、B ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "130,131"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "128,131"
+                                    }
+                                },
+                                {
+                                    "content": "后果：分立后法人连带享有债权、承担债务（另有约定除外 ）",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "131,132"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "127,128"
+                            }
+                        },
+                        {
+                            "content": "（二）法人的合并",
+                            "children": [
+                                {
+                                    "content": "类型",
+                                    "children": [
+                                        {
+                                            "content": "创设式合并：多个法人归并为新法人，原法人消灭（如A、B→C ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "134,135"
+                                            }
+                                        },
+                                        {
+                                            "content": "吸收式合并：多个法人归并于其他法人，被并法人消灭（如A、B→新A ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "135,136"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "133,136"
+                                    }
+                                },
+                                {
+                                    "content": "后果：合并后法人享有和承担权利义务",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "136,137"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "132,133"
+                            }
+                        },
+                        {
+                            "content": "（三）法人的组织性质等登记事项变更",
+                            "children": [
+                                {
+                                    "content": "变更登记事项（《民法典》第64条 ）",
+                                    "children": [
+                                        {
+                                            "content": "组织性质变更（如有限责任公司变股份公司 ），需登记",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "139,140"
+                                            }
+                                        },
+                                        {
+                                            "content": "其他重大事项变更（名称、注册资金等 ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "140,141"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "138,141"
+                                    }
+                                },
+                                {
+                                    "content": "变更登记的效力（《民法典》第65条 ）：实际情况与登记不一致，不得对抗善意相对人",
+                                    "children": [
+                                        {
+                                            "content": "示例：东方公司法定代表人变更未登记，不得对抗善意的公达公司",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "142,143"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "141,143"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "137,138"
+                            }
+                        }
+                    ],
+                    "payload": {
+                        "tag": "h2",
+                        "lines": "126,127"
+                    }
+                },
+                {
+                    "content": "四、法人的终止",
+                    "children": [
+                        {
+                            "content": "（一）法人终止的原因",
+                            "children": [
+                                {
+                                    "content": "法人解散：章程规定存续期满、权力机构决议解散、因合并/分立解散、被吊销执照/登记证书、被责令关闭/撤销、法律规定其他情形",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "145,146"
+                                    }
+                                },
+                                {
+                                    "content": "法人被宣告破产",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "146,147"
+                                    }
+                                },
+                                {
+                                    "content": "法律规定其他原因",
+                                    "children": [
+                                        {
+                                            "content": "典型真题：变更名称不属于法人解散原因（选项D ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "148,149"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "147,149"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "144,145"
+                            }
+                        },
+                        {
+                            "content": "（二）法人终止的清算",
+                            "children": [
+                                {
+                                    "content": "清算：清理业务、财产，清偿债务，使法人法律上消灭的程序",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "150,151"
+                                    }
+                                },
+                                {
+                                    "content": "清算义务人：法人解散（除合并/分立 ），董事等执行/决策机构成员为清算义务人；未及时清算致损，担民事责",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "151,152"
+                                    }
+                                },
+                                {
+                                    "content": "清算期间：法人存续，不得从事无关活动；剩余财产依章程或权力机构决议处理；公益法人剩余财产用于公益（《民法典》第95条 ）",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "152,153"
+                                    }
+                                },
+                                {
+                                    "content": "清算终结效力",
+                                    "children": [
+                                        {
+                                            "content": "需登记的，清算终结+注销登记，法人终止",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "154,155"
+                                            }
+                                        },
+                                        {
+                                            "content": "不需登记的，清算终结，法人终止",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "155,156"
+                                            }
+                                        },
+                                        {
+                                            "content": "破产的，破产清算+注销登记，法人终止",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "156,157"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "153,157"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "149,150"
+                            }
+                        },
+                        {
+                            "content": "（三）各类法人重要考点汇总表",
+                            "children": [
+                                {
+                                    "content": "<table data-lines=\"158,165\">\n<thead data-lines=\"158,159\">\n<tr data-lines=\"158,159\">\n<th>类型</th>\n<th>设立要件</th>\n<th>目的</th>\n<th>法人机构</th>\n<th>利润分配</th>\n<th>终止时剩余财产分配</th>\n</tr>\n</thead>\n<tbody data-lines=\"160,165\">\n<tr data-lines=\"160,161\">\n<td>营利法人</td>\n<td>登记</td>\n<td>营利</td>\n<td>权力、执行、监督</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr data-lines=\"161,162\">\n<td>捐助法人（非营利 ）</td>\n<td>登记</td>\n<td>公益</td>\n<td>决策、执行、监管</td>\n<td>否</td>\n<td>否</td>\n</tr>\n<tr data-lines=\"162,163\">\n<td>事业单位（非营利 ）</td>\n<td>登记/成立</td>\n<td>公益</td>\n<td>可设理事会为决策机构</td>\n<td>否</td>\n<td>否</td>\n</tr>\n<tr data-lines=\"163,164\">\n<td>社会团体（非营利 ）</td>\n<td>登记/成立</td>\n<td>公益、其他非营利</td>\n<td>权力、执行</td>\n<td>否</td>\n<td>否</td>\n</tr>\n<tr data-lines=\"164,165\">\n<td>机关法人（特别 ）</td>\n<td>成立</td>\n<td>——</td>\n<td>——</td>\n<td>——</td>\n<td>是</td>\n</tr>\n</tbody>\n</table>",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "table",
+                                        "lines": "158,165"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h3",
+                                "lines": "157,158"
+                            }
+                        }
+                    ],
+                    "payload": {
+                        "tag": "h2",
+                        "lines": "143,144"
+                    }
                 }
             ],
-            payload: { tag: 'h2', lines: '38,39' }
+            "payload": {
+                "tag": "h1",
+                "lines": "92,93"
+            }
         }
-    ],
-    payload: { tag: 'h1', lines: ' ' }
+    ]
 }
