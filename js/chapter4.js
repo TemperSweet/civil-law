@@ -1,5 +1,5 @@
 var chapter4 =  {
-    "content": "法人（第四章）",
+    "content": "法人",
     "children": [
         {
             "content": "备考点睛",
