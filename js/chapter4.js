@@ -1,34 +1,30 @@
 var chapter4 = {
     "content": "法人",
     "children": [
-        {
-            "content": "法人（第四章）",
-            "children": [
-                {
-                    "content": "备考点睛",
-                    "children": [
-                        {
-                            "content": "内容：作为民事权利主体的法人制度，从纵横逻辑理解《民法典》规定，含法人“一生”（设立、存续等阶段）及具体类型（营利、非营利、特别法人 ）",
-                            "children": [],
-                            "payload": {
-                                "tag": "li",
-                                "lines": "2,3"
-                            }
-                        },
-                        {
-                            "content": "要求：了解含义，掌握分类；了解法人人格否认规则；掌握设立、法定代表人、终止等规则",
-                            "children": [],
-                            "payload": {
-                                "tag": "li",
-                                "lines": "3,4"
-                            }
-                        }
-                    ],
-                    "payload": {
-                        "tag": "h2",
-                        "lines": "1,2"
-                    }
-                },
+    {
+        "content": "备考点睛",
+        "children": [
+            {
+                "content": "内容：作为民事权利主体的法人制度，从纵横逻辑理解《民法典》规定，含法人“一生”（设立、存续等阶段）及具体类型（营利、非营利、特别法人 ）",
+                "children": [],
+                "payload": {
+                    "tag": "li",
+                    "lines": "2,3"
+                }
+            },
+            {
+                "content": "要求：了解含义，掌握分类；了解法人人格否认规则；掌握设立、法定代表人、终止等规则",
+                "children": [],
+                "payload": {
+                    "tag": "li",
+                    "lines": "3,4"
+                }
+            }
+        ],
+        "payload": {
+            "tag": "h2",
+            "lines": "1,2"
+        }，
                 {
                     "content": "第一节 法人概述",
                     "children": [
