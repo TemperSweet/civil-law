@@ -1237,4 +1237,3 @@ var chapter4 =  {
         "lines": "0,1"
     }
 }
-          
