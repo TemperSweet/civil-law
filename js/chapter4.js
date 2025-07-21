@@ -1,672 +1,667 @@
-var chapter4 = {
-    "content": "法人",
+var chapter4 =  {
+    "content": "法人（第四章）",
     "children": [
-    {
-        "content": "备考点睛",
-        "children": [
-            {
-                "content": "内容：作为民事权利主体的法人制度，从纵横逻辑理解《民法典》规定，含法人“一生”（设立、存续等阶段）及具体类型（营利、非营利、特别法人 ）",
-                "children": [],
-                "payload": {
-                    "tag": "li",
-                    "lines": "2,3"
-                }
-            },
-            {
-                "content": "要求：了解含义，掌握分类；了解法人人格否认规则；掌握设立、法定代表人、终止等规则",
-                "children": [],
-                "payload": {
-                    "tag": "li",
-                    "lines": "3,4"
-                }
-            }
-        ],
-        "payload": {
-            "tag": "h2",
-            "lines": "1,2"
-        }，
+        {
+            "content": "备考点睛",
+            "children": [
                 {
-                    "content": "第一节 法人概述",
-                    "children": [
-                        {
-                            "content": "一、法人的概念与特征",
-                            "children": [
-                                {
-                                    "content": "概念：具有民事权利能力和行为能力，依法独立享有权利、承担义务的组织",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "6,7"
-                                    }
-                                },
-                                {
-                                    "content": "特征",
-                                    "children": [
-                                        {
-                                            "content": "是社会组织",
-                                            "children": [],
-                                            "payload": {
-                                                "tag": "li",
-                                                "lines": "8,9"
-                                            }
-                                        },
-                                        {
-                                            "content": "有民事权利能力和行为能力，以自己名义参与民事活动",
-                                            "children": [],
-                                            "payload": {
-                                                "tag": "li",
-                                                "lines": "9,10"
-                                            }
-                                        },
-                                        {
-                                            "content": "可独立享有权利、履行义务、承担责任（与非法人组织主要区别 ）",
-                                            "children": [],
-                                            "payload": {
-                                                "tag": "li",
-                                                "lines": "10,11"
-                                            }
-                                        }
-                                    ],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "7,11"
-                                    }
-                                }
-                            ],
-                            "payload": {
-                                "tag": "h3",
-                                "lines": "5,6"
-                            }
-                        },
-                        {
-                            "content": "二、法人的分类",
-                            "children": [
-                                {
-                                    "content": "（一）理论分类（公法人与私法人、社团法人与财团法人 ）",
-                                    "children": [
-                                        {
-                                            "content": "公法人与私法人",
-                                            "children": [
-                                                {
-                                                    "content": "划分：公法私法区分产物，通说“综合说”",
-                                                    "children": [],
-                                                    "payload": {
-                                                        "tag": "li",
-                                                        "lines": "14,15"
-                                                    }
-                                                },
-                                                {
-                                                    "content": "公法人：依国家意思设立，目的事业法定，加入有强制，人事国家任免，不得擅自设立解散",
-                                                    "children": [],
-                                                    "payload": {
-                                                        "tag": "li",
-                                                        "lines": "15,16"
-                                                    }
-                                                },
-                                                {
-                                                    "content": "私法人：私人设立，内部关系平等，经营私法事业，成员大会可决定解散",
-                                                    "children": [],
-                                                    "payload": {
-                                                        "tag": "li",
-                                                        "lines": "16,17"
-                                                    }
-                                                }
-                                            ],
-                                            "payload": {
-                                                "tag": "li",
-                                                "lines": "13,17"
-                                            }
-                                        },
-                                        {
-                                            "content": "社团法人与财团法人（以成立基础为标准 ）\n<table data-lines=\"18,26\">\n<thead data-lines=\"18,19\">\n<tr data-lines=\"18,19\">\n<th>比较内容</th>\n<th>社团法人</th>\n<th>财团法人</th>\n</tr>\n</thead>\n<tbody data-lines=\"20,26\">\n<tr data-lines=\"20,21\">\n<td>成立基础</td>\n<td>人的集合</td>\n<td>捐助财产</td>\n</tr>\n<tr data-lines=\"21,22\">\n<td>设立人地位</td>\n<td>通常为法人成员</td>\n<td>并非财团法人成员</td>\n</tr>\n<tr data-lines=\"22,23\">\n<td>设立行为</td>\n<td>多方法律行为</td>\n<td>单方法律行为（含遗嘱）</td>\n</tr>\n<tr data-lines=\"23,24\">\n<td>意思机关</td>\n<td>有</td>\n<td>无</td>\n</tr>\n<tr data-lines=\"24,25\">\n<td>目的事业</td>\n<td>营利、公益或其他非营利</td>\n<td>限公益目的</td>\n</tr>\n<tr data-lines=\"25,26\">\n<td>解散原因及后果</td>\n<td>多样化（如成员协议）</td>\n<td>期限届满或财产不足解散；剩余财产不得分配，继续服务公益</td>\n</tr>\n</tbody>\n</table>",
-                                            "children": [],
-                                            "payload": {
-                                                "tag": "li",
-                                                "lines": "17,26"
-                                            }
-                                        }
-                                    ],
-                                    "payload": {
-                                        "tag": "h4",
-                                        "lines": "12,13"
-                                    }
-                                },
-                                {
-                                    "content": "（二）《民法典》分类（营利法人、非营利法人、特别法人 ）",
-                                    "children": [
-                                        {
-                                            "content": "营利法人",
-                                            "children": [
-                                                {
-                                                    "content": "定义：以取得利润并分配给股东等出资人为目的的法人",
-                                                    "children": [],
-                                                    "payload": {
-                                                        "tag": "li",
-                                                        "lines": "28,29"
-                                                    }
-                                                },
-                                                {
-                                                    "content": "类型：有限责任公司、股份有限公司、其他企业法人等",
-                                                    "children": [],
-                                                    "payload": {
-                                                        "tag": "li",
-                                                        "lines": "29,30"
-                                                    }
-                                                }
-                                            ],
-                                            "payload": {
-                                                "tag": "li",
-                                                "lines": "27,30"
-                                            }
-                                        },
-                                        {
-                                            "content": "非营利法人",
-                                            "children": [
-                                                {
-                                                    "content": "定义：为公益或其他非营利目的，不向出资人等分配利润的法人",
-                                                    "children": [],
-                                                    "payload": {
-                                                        "tag": "li",
-                                                        "lines": "31,32"
-                                                    }
-                                                },
-                                                {
-                                                    "content": "类型：事业单位、社会团体、基金会、社会服务机构等",
-                                                    "children": [],
-                                                    "payload": {
-                                                        "tag": "li",
-                                                        "lines": "32,33"
-                                                    }
-                                                },
-                                                {
-                                                    "content": "区别：经营利润/收益是否分配给成员或设立人",
-                                                    "children": [],
-                                                    "payload": {
-                                                        "tag": "li",
-                                                        "lines": "33,34"
-                                                    }
-                                                },
-                                                {
-                                                    "content": "典型真题：非营利性法人包括社会团体法人、事业单位法人（选项B、C ）",
-                                                    "children": [],
-                                                    "payload": {
-                                                        "tag": "li",
-                                                        "lines": "34,35"
-                                                    }
-                                                }
-                                            ],
-                                            "payload": {
-                                                "tag": "li",
-                                                "lines": "30,35"
-                                            }
-                                        },
-                                        {
-                                            "content": "特别法人",
-                                            "children": [
-                                                {
-                                                    "content": "定义：不能简单归入营利、非营利法人的法人",
-                                                    "children": [],
-                                                    "payload": {
-                                                        "tag": "li",
-                                                        "lines": "36,37"
-                                                    }
-                                                },
-                                                {
-                                                    "content": "类型：机关法人、农村集体经济组织法人、城镇农村合作经济组织法人、基层群众性自治组织法人",
-                                                    "children": [],
-                                                    "payload": {
-                                                        "tag": "li",
-                                                        "lines": "37,38"
-                                                    }
-                                                }
-                                            ],
-                                            "payload": {
-                                                "tag": "li",
-                                                "lines": "35,38"
-                                            }
-                                        }
-                                    ],
-                                    "payload": {
-                                        "tag": "h4",
-                                        "lines": "26,27"
-                                    }
-                                }
-                            ],
-                            "payload": {
-                                "tag": "h3",
-                                "lines": "11,12"
-                            }
-                        }
-                    ],
+                    "content": "内容：作为民事权利主体的法人制度，从纵横逻辑理解《民法典》规定，含法人“一生”（设立、存续等阶段）及具体类型（营利、非营利、特别法人 ）",
+                    "children": [],
                     "payload": {
-                        "tag": "h2",
-                        "lines": "4,5"
+                        "tag": "li",
+                        "lines": "2,3"
+                    }
+                },
+                {
+                    "content": "要求：了解含义，掌握分类；了解法人人格否认规则；掌握设立、法定代表人、终止等规则",
+                    "children": [],
+                    "payload": {
+                        "tag": "li",
+                        "lines": "3,4"
                     }
                 }
             ],
             "payload": {
-                "tag": "h1",
-                "lines": "0,1"
+                "tag": "h2",
+                "lines": "1,2"
             }
         },
         {
-            "content": "法人的具体类型（第四章第二节）",
+            "content": "第一节 法人概述",
             "children": [
                 {
-                    "content": "一、营利法人",
+                    "content": "一、法人的概念与特征",
                     "children": [
                         {
-                            "content": "（一）营利法人概述",
+                            "content": "概念：具有民事权利能力和行为能力，依法独立享有权利、承担义务的组织",
+                            "children": [],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "6,7"
+                            }
+                        },
+                        {
+                            "content": "特征",
                             "children": [
                                 {
-                                    "content": "定义：以取得利润并分配给股东等出资人为目的的法人，含有限责任公司、股份有限公司等",
+                                    "content": "是社会组织",
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
+                                        "lines": "8,9"
+                                    }
+                                },
+                                {
+                                    "content": "有民事权利能力和行为能力，以自己名义参与民事活动",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "9,10"
+                                    }
+                                },
+                                {
+                                    "content": "可独立享有权利、履行义务、承担责任（与非法人组织主要区别 ）",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "10,11"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "7,11"
+                            }
+                        }
+                    ],
+                    "payload": {
+                        "tag": "h3",
+                        "lines": "5,6"
+                    }
+                },
+                {
+                    "content": "二、法人的分类",
+                    "children": [
+                        {
+                            "content": "（一）理论分类（公法人与私法人、社团法人与财团法人 ）",
+                            "children": [
+                                {
+                                    "content": "公法人与私法人",
+                                    "children": [
+                                        {
+                                            "content": "划分：公法私法区分产物，通说“综合说”",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "14,15"
+                                            }
+                                        },
+                                        {
+                                            "content": "公法人：依国家意思设立，目的事业法定，加入有强制，人事国家任免，不得擅自设立解散",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "15,16"
+                                            }
+                                        },
+                                        {
+                                            "content": "私法人：私人设立，内部关系平等，经营私法事业，成员大会可决定解散",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "16,17"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "13,17"
+                                    }
+                                },
+                                {
+                                    "content": "社团法人与财团法人（以成立基础为标准 ）\n<table data-lines=\"18,26\">\n<thead data-lines=\"18,19\">\n<tr data-lines=\"18,19\">\n<th>比较内容</th>\n<th>社团法人</th>\n<th>财团法人</th>\n</tr>\n</thead>\n<tbody data-lines=\"20,26\">\n<tr data-lines=\"20,21\">\n<td>成立基础</td>\n<td>人的集合</td>\n<td>捐助财产</td>\n</tr>\n<tr data-lines=\"21,22\">\n<td>设立人地位</td>\n<td>通常为法人成员</td>\n<td>并非财团法人成员</td>\n</tr>\n<tr data-lines=\"22,23\">\n<td>设立行为</td>\n<td>多方法律行为</td>\n<td>单方法律行为（含遗嘱）</td>\n</tr>\n<tr data-lines=\"23,24\">\n<td>意思机关</td>\n<td>有</td>\n<td>无</td>\n</tr>\n<tr data-lines=\"24,25\">\n<td>目的事业</td>\n<td>营利、公益或其他非营利</td>\n<td>限公益目的</td>\n</tr>\n<tr data-lines=\"25,26\">\n<td>解散原因及后果</td>\n<td>多样化（如成员协议）</td>\n<td>期限届满或财产不足解散；剩余财产不得分配，继续服务公益</td>\n</tr>\n</tbody>\n</table>",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "17,26"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h4",
+                                "lines": "12,13"
+                            }
+                        },
+                        {
+                            "content": "（二）《民法典》分类（营利法人、非营利法人、特别法人 ）",
+                            "children": [
+                                {
+                                    "content": "营利法人",
+                                    "children": [
+                                        {
+                                            "content": "定义：以取得利润并分配给股东等出资人为目的的法人",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "28,29"
+                                            }
+                                        },
+                                        {
+                                            "content": "类型：有限责任公司、股份有限公司、其他企业法人等",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "29,30"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "27,30"
+                                    }
+                                },
+                                {
+                                    "content": "非营利法人",
+                                    "children": [
+                                        {
+                                            "content": "定义：为公益或其他非营利目的，不向出资人等分配利润的法人",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "31,32"
+                                            }
+                                        },
+                                        {
+                                            "content": "类型：事业单位、社会团体、基金会、社会服务机构等",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "32,33"
+                                            }
+                                        },
+                                        {
+                                            "content": "区别：经营利润/收益是否分配给成员或设立人",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "33,34"
+                                            }
+                                        },
+                                        {
+                                            "content": "典型真题：非营利性法人包括社会团体法人、事业单位法人（选项B、C ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "34,35"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "30,35"
+                                    }
+                                },
+                                {
+                                    "content": "特别法人",
+                                    "children": [
+                                        {
+                                            "content": "定义：不能简单归入营利、非营利法人的法人",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "36,37"
+                                            }
+                                        },
+                                        {
+                                            "content": "类型：机关法人、农村集体经济组织法人、城镇农村合作经济组织法人、基层群众性自治组织法人",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "37,39"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "35,39"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "h4",
+                                "lines": "26,27"
+                            }
+                        }
+                    ],
+                    "payload": {
+                        "tag": "h3",
+                        "lines": "11,12"
+                    }
+                },
+                {
+                    "content": "法人的具体类型（第四章第二节）",
+                    "children": [
+                        {
+                            "content": "一、营利法人",
+                            "children": [
+                                {
+                                    "content": "（一）营利法人概述",
+                                    "children": [
+                                        {
+                                            "content": "定义：以取得利润并分配给股东等出资人为目的的法人，含有限责任公司、股份有限公司等",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "42,43"
+                                            }
+                                        },
+                                        {
+                                            "content": "成立：依法登记成立，营业执照签发日期为成立日期",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "43,44"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "h5",
                                         "lines": "41,42"
                                     }
                                 },
                                 {
-                                    "content": "成立：依法登记成立，营业执照签发日期为成立日期",
-                                    "children": [],
+                                    "content": "（二）营利法人的机构",
+                                    "children": [
+                                        {
+                                            "content": "<table data-lines=\"45,50\">\n<thead data-lines=\"45,46\">\n<tr data-lines=\"45,46\">\n<th>组织机构</th>\n<th>设置要求</th>\n<th>行使职权</th>\n<th>设置目的</th>\n<th>表现形式</th>\n</tr>\n</thead>\n<tbody data-lines=\"47,50\">\n<tr data-lines=\"47,48\">\n<td>权力机构</td>\n<td>应当设立</td>\n<td>修改章程；选举/更换执行、监督机构成员；法人章程规定的其他职权</td>\n<td>确保出资人利益、投资回报</td>\n<td>股东会</td>\n</tr>\n<tr data-lines=\"48,49\">\n<td>执行机构</td>\n<td>应当设立</td>\n<td>召集权力机构会议；决定经营计划、投资方案；决定内部管理机构设置；法人章程规定的其他职权</td>\n<td>执行权力机构决定，董事长等可任法定代表人</td>\n<td>董事会或执行董事</td>\n</tr>\n<tr data-lines=\"49,50\">\n<td>监督机构</td>\n<td>原则设立（依《公司法（2023 修订）》，小公司等可例外 ）</td>\n<td>检查法人财务；监督执行机构成员等执行职务行为；法人章程规定的其他职权</td>\n<td>防止执行机构成员等违规</td>\n<td>监事会或监事</td>\n</tr>\n</tbody>\n</table>",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "table",
+                                                "lines": "45,50"
+                                            }
+                                        }
+                                    ],
                                     "payload": {
-                                        "tag": "li",
-                                        "lines": "42,43"
+                                        "tag": "h5",
+                                        "lines": "44,45"
+                                    }
+                                },
+                                {
+                                    "content": "（三）营利法人出资人的责任",
+                                    "children": [
+                                        {
+                                            "content": "责任承担：营利法人以全部财产担责；有限责任公司股东以认缴出资额、股份有限公司股东以认购股份为限担责",
+                                            "children": [
+                                                {
+                                                    "content": "示例：大恒集团债务，股东许某原则上不担责（法人独立人格 ）",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "52,53"
+                                                    }
+                                                }
+                                            ],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "51,53"
+                                            }
+                                        },
+                                        {
+                                            "content": "法人人格否认：出资人滥用法人独立地位和有限责任损债权人利益，对债务连带担责",
+                                            "children": [
+                                                {
+                                                    "content": "示例：许某与大恒集团财产混同，债权人可要求许某连带担责",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "54,55"
+                                                    }
+                                                }
+                                            ],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "53,55"
+                                            }
+                                        },
+                                        {
+                                            "content": "出资人权利保护：出资人滥用权利损法人或其他出资人利益，承担民事责任",
+                                            "children": [
+                                                {
+                                                    "content": "示例：许某滥用权利致大恒集团或其他股东损失，需赔偿",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "56,57"
+                                                    }
+                                                }
+                                            ],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "55,57"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "h5",
+                                        "lines": "50,51"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
+                                "tag": "h4",
                                 "lines": "40,41"
                             }
                         },
                         {
-                            "content": "（二）营利法人的机构",
+                            "content": "二、非营利法人",
                             "children": [
                                 {
-                                    "content": "<table data-lines=\"44,49\">\n<thead data-lines=\"44,45\">\n<tr data-lines=\"44,45\">\n<th>组织机构</th>\n<th>设置要求</th>\n<th>行使职权</th>\n<th>设置目的</th>\n<th>表现形式</th>\n</tr>\n</thead>\n<tbody data-lines=\"46,49\">\n<tr data-lines=\"46,47\">\n<td>权力机构</td>\n<td>应当设立</td>\n<td>修改章程；选举/更换执行、监督机构成员；法人章程规定的其他职权</td>\n<td>确保出资人利益、投资回报</td>\n<td>股东会</td>\n</tr>\n<tr data-lines=\"47,48\">\n<td>执行机构</td>\n<td>应当设立</td>\n<td>召集权力机构会议；决定经营计划、投资方案；决定内部管理机构设置；法人章程规定的其他职权</td>\n<td>执行权力机构决定，董事长等可任法定代表人</td>\n<td>董事会或执行董事</td>\n</tr>\n<tr data-lines=\"48,49\">\n<td>监督机构</td>\n<td>原则设立（依《公司法（2023 修订）》，小公司等可例外 ）</td>\n<td>检查法人财务；监督执行机构成员等执行职务行为；法人章程规定的其他职权</td>\n<td>防止执行机构成员等违规</td>\n<td>监事会或监事</td>\n</tr>\n</tbody>\n</table>",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "table",
-                                        "lines": "44,49"
-                                    }
-                                }
-                            ],
-                            "payload": {
-                                "tag": "h3",
-                                "lines": "43,44"
-                            }
-                        },
-                        {
-                            "content": "（三）营利法人出资人的责任",
-                            "children": [
-                                {
-                                    "content": "责任承担：营利法人以全部财产担责；有限责任公司股东以认缴出资额、股份有限公司股东以认购股份为限担责",
+                                    "content": "（一）概述",
                                     "children": [
                                         {
-                                            "content": "示例：大恒集团债务，股东许某原则上不担责（法人独立人格 ）",
+                                            "content": "定义：为公益或其他非营利目的，不向出资人等分配利润的法人，含事业单位、社会团体、基金会、社会服务机构等",
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "51,52"
+                                                "lines": "59,60"
+                                            }
+                                        },
+                                        {
+                                            "content": "“非营利” 指目的非营利，日常可开展营利活动",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "60,61"
                                             }
                                         }
                                     ],
                                     "payload": {
-                                        "tag": "li",
-                                        "lines": "50,52"
-                                    }
-                                },
-                                {
-                                    "content": "法人人格否认：出资人滥用法人独立地位和有限责任损债权人利益，对债务连带担责",
-                                    "children": [
-                                        {
-                                            "content": "示例：许某与大恒集团财产混同，债权人可要求许某连带担责",
-                                            "children": [],
-                                            "payload": {
-                                                "tag": "li",
-                                                "lines": "53,54"
-                                            }
-                                        }
-                                    ],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "52,54"
-                                    }
-                                },
-                                {
-                                    "content": "出资人权利保护：出资人滥用权利损法人或其他出资人利益，承担民事责任",
-                                    "children": [
-                                        {
-                                            "content": "示例：许某滥用权利致大恒集团或其他股东损失，需赔偿",
-                                            "children": [],
-                                            "payload": {
-                                                "tag": "li",
-                                                "lines": "55,56"
-                                            }
-                                        }
-                                    ],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "54,56"
-                                    }
-                                }
-                            ],
-                            "payload": {
-                                "tag": "h3",
-                                "lines": "49,50"
-                            }
-                        }
-                    ],
-                    "payload": {
-                        "tag": "h2",
-                        "lines": "39,40"
-                    }
-                },
-                {
-                    "content": "二、非营利法人",
-                    "children": [
-                        {
-                            "content": "（一）概述",
-                            "children": [
-                                {
-                                    "content": "定义：为公益或其他非营利目的，不向出资人等分配利润的法人，含事业单位、社会团体、基金会、社会服务机构等",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
+                                        "tag": "h5",
                                         "lines": "58,59"
                                     }
                                 },
                                 {
-                                    "content": "“非营利” 指目的非营利，日常可开展营利活动",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "59,60"
-                                    }
-                                }
-                            ],
-                            "payload": {
-                                "tag": "h3",
-                                "lines": "57,58"
-                            }
-                        },
-                        {
-                            "content": "（二）事业单位",
-                            "children": [
-                                {
-                                    "content": "定义：具备法人条件，为公益服务设立的事业单位（如央视、人大等 ）",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "61,62"
-                                    }
-                                },
-                                {
-                                    "content": "成立：具备法人条件的，依法登记成立；依法不需登记的，成立日起具法人资格",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "62,63"
-                                    }
-                                },
-                                {
-                                    "content": "机构：设理事会的，理事会为决策机构；法定代表人依法律等产生",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "63,64"
-                                    }
-                                }
-                            ],
-                            "payload": {
-                                "tag": "h3",
-                                "lines": "60,61"
-                            }
-                        },
-                        {
-                            "content": "（三）社会团体",
-                            "children": [
-                                {
-                                    "content": "定义：具备法人条件，基于会员意愿，为公益或会员共同利益设立的非营利法人（如各类协会等 ）",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "65,66"
-                                    }
-                                },
-                                {
-                                    "content": "成立：符合规定的，依法登记成立；依法不需登记的，成立日起具法人资格",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "66,67"
-                                    }
-                                },
-                                {
-                                    "content": "机构：需制定法人章程；设会员大会/代表大会等权力机构、理事会等执行机构；理事长等任法定代表人",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "67,68"
-                                    }
-                                }
-                            ],
-                            "payload": {
-                                "tag": "h3",
-                                "lines": "64,65"
-                            }
-                        },
-                        {
-                            "content": "（四）捐助法人（2021 法单 11、单 21 ）",
-                            "children": [
-                                {
-                                    "content": "定义：具备法人条件，为公益目的，以捐助财产设立的基金会、社会服务机构等",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "69,70"
-                                    }
-                                },
-                                {
-                                    "content": "成立：符合条件的，依法登记成立；宗教活动场所具备条件的，可申请登记",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "70,71"
-                                    }
-                                },
-                                {
-                                    "content": "机构：需制定法人章程；设理事会、民主管理组织等决策机构及执行机构；理事长等任法定代表人；设监事会等监督机构",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "71,72"
-                                    }
-                                },
-                                {
-                                    "content": "利害关系人权利",
+                                    "content": "（二）事业单位",
                                     "children": [
                                         {
-                                            "content": "捐助人可查询财产使用管理情况，提意见建议，捐助法人应如实答复",
+                                            "content": "定义：具备法人条件，为公益服务设立的事业单位（如央视、人大等 ）",
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "73,74"
+                                                "lines": "62,63"
                                             }
                                         },
                                         {
-                                            "content": "决策等机构程序或内容违规，捐助人等可请求法院撤销，不影响善意相对人民事法律关系",
+                                            "content": "成立：具备法人条件的，依法登记成立；依法不需登记的，成立日起具法人资格",
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "74,75"
+                                                "lines": "63,64"
                                             }
                                         },
                                         {
-                                            "content": "示例：王某捐 2000 万设 A 基金会，刘某违规捐赠，王某可撤销决定，赠与合同对 B 小学有效",
+                                            "content": "机构：设理事会的，理事会为决策机构；法定代表人依法律等产生",
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "75,76"
-                                            }
-                                        },
-                                        {
-                                            "content": "典型真题：捐助法人是为公益目的设立的非营利法人（选项 B 正确 ）",
-                                            "children": [],
-                                            "payload": {
-                                                "tag": "li",
-                                                "lines": "76,77"
+                                                "lines": "64,65"
                                             }
                                         }
                                     ],
                                     "payload": {
-                                        "tag": "li",
-                                        "lines": "72,77"
+                                        "tag": "h5",
+                                        "lines": "61,62"
                                     }
-                                }
-                            ],
-                            "payload": {
-                                "tag": "h3",
-                                "lines": "68,69"
-                            }
-                        }
-                    ],
-                    "payload": {
-                        "tag": "h2",
-                        "lines": "56,57"
-                    }
-                },
-                {
-                    "content": "三、特别法人（2019 法多 26、多 46 ）",
-                    "children": [
-                        {
-                            "content": "（一）概述",
-                            "children": [
+                                },
                                 {
-                                    "content": "定义：除营利、非营利法人外，具特殊性（行使公权力职能 ）的法人组织，设立、终止等有不同",
-                                    "children": [],
+                                    "content": "（三）社会团体",
+                                    "children": [
+                                        {
+                                            "content": "定义：具备法人条件，基于会员意愿，为公益或会员共同利益设立的非营利法人（如各类协会等 ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "66,67"
+                                            }
+                                        },
+                                        {
+                                            "content": "成立：符合规定的，依法登记成立；依法不需登记的，成立日起具法人资格",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "67,68"
+                                            }
+                                        },
+                                        {
+                                            "content": "机构：需制定法人章程；设会员大会/代表大会等权力机构、理事会等执行机构；理事长等任法定代表人",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "68,69"
+                                            }
+                                        }
+                                    ],
                                     "payload": {
-                                        "tag": "li",
-                                        "lines": "79,80"
+                                        "tag": "h5",
+                                        "lines": "65,66"
+                                    }
+                                },
+                                {
+                                    "content": "（四）捐助法人（2021 法单 11、单 21 ）",
+                                    "children": [
+                                        {
+                                            "content": "定义：具备法人条件，为公益目的，以捐助财产设立的基金会、社会服务机构等",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "70,71"
+                                            }
+                                        },
+                                        {
+                                            "content": "成立：符合条件的，依法登记成立；宗教活动场所具备条件的，可申请登记",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "71,72"
+                                            }
+                                        },
+                                        {
+                                            "content": "机构：需制定法人章程；设理事会、民主管理组织等决策机构及执行机构；理事长等任法定代表人；设监事会等监督机构",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "72,73"
+                                            }
+                                        },
+                                        {
+                                            "content": "利害关系人权利",
+                                            "children": [
+                                                {
+                                                    "content": "捐助人可查询财产使用管理情况，提意见建议，捐助法人应如实答复",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "74,75"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "决策等机构程序或内容违规，捐助人等可请求法院撤销，不影响善意相对人民事法律关系",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "75,76"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "示例：王某捐 2000 万设 A 基金会，刘某违规捐赠，王某可撤销决定，赠与合同对 B 小学有效",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "76,77"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "典型真题：捐助法人是为公益目的设立的非营利法人（选项 B 正确 ）",
+                                                    "children": [],
+                                                    "payload": {
+                                                        "tag": "li",
+                                                        "lines": "77,78"
+                                                    }
+                                                }
+                                            ],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "73,78"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "h5",
+                                        "lines": "69,70"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "78,79"
+                                "tag": "h4",
+                                "lines": "57,58"
                             }
                         },
                         {
-                            "content": "（二）机关法人",
+                            "content": "三、特别法人（2019 法多 26、多 46 ）",
                             "children": [
                                 {
-                                    "content": "定义：有独立经费、承担行政职能的法定机构，成立日起可从事履职所需民事活动（如税务总局、公安局 ）",
-                                    "children": [],
+                                    "content": "（一）概述",
+                                    "children": [
+                                        {
+                                            "content": "定义：除营利、非营利法人外，具特殊性（行使公权力职能 ）的法人组织，设立、终止等有不同",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "80,81"
+                                            }
+                                        }
+                                    ],
                                     "payload": {
-                                        "tag": "li",
+                                        "tag": "h5",
+                                        "lines": "79,80"
+                                    }
+                                },
+                                {
+                                    "content": "（二）机关法人",
+                                    "children": [
+                                        {
+                                            "content": "定义：有独立经费、承担行政职能的法定机构，成立日起可从事履职所需民事活动（如税务总局、公安局 ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "82,83"
+                                            }
+                                        },
+                                        {
+                                            "content": "成立时间：有独立经费、承担行政职能的法定机构，成立日起具法人资格",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "83,84"
+                                            }
+                                        },
+                                        {
+                                            "content": "被撤销后果：法人终止，民事权利义务由继任机关法人享有承担；无继任的，由作出撤销决定的机关法人享有承担",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "84,85"
+                                            }
+                                        }
+                                    ],
+                                    "payload": {
+                                        "tag": "h5",
                                         "lines": "81,82"
                                     }
                                 },
                                 {
-                                    "content": "成立时间：有独立经费、承担行政职能的法定机构，成立日起具法人资格",
-                                    "children": [],
+                                    "content": "（三）农村集体经济组织法人",
+                                    "children": [
+                                        {
+                                            "content": "定义：一定村或乡镇社区范围内集体成员，利用土地等集体资源，资金与劳动联合合作发展的经济组织法人",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "86,87"
+                                            }
+                                        },
+                                        {
+                                            "content": "背景拓展：《农村集体经济组织法》2025 年 5 月 1 日施行，促农村集体经济发展",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "87,88"
+                                            }
+                                        }
+                                    ],
                                     "payload": {
-                                        "tag": "li",
-                                        "lines": "82,83"
-                                    }
-                                },
-                                {
-                                    "content": "被撤销后果：法人终止，民事权利义务由继任机关法人享有承担；无继任的，由作出撤销决定的机关法人享有承担",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "83,84"
-                                    }
-                                }
-                            ],
-                            "payload": {
-                                "tag": "h3",
-                                "lines": "80,81"
-                            }
-                        },
-                        {
-                            "content": "（三）农村集体经济组织法人",
-                            "children": [
-                                {
-                                    "content": "定义：一定村或乡镇社区范围内集体成员，利用土地等集体资源，资金与劳动联合合作发展的经济组织法人",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
+                                        "tag": "h5",
                                         "lines": "85,86"
                                     }
                                 },
                                 {
-                                    "content": "背景拓展：《农村集体经济组织法》2025 年 5 月 1 日施行，促农村集体经济发展",
-                                    "children": [],
+                                    "content": "（四）城镇农村的合作经济组织法人",
+                                    "children": [
+                                        {
+                                            "content": "定义：同类产品或产业生产者、经营者、服务提供者等，自愿联合，互助合作、民主管理，实现成员利益的互助性经济组织法人",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "89,90"
+                                            }
+                                        }
+                                    ],
                                     "payload": {
-                                        "tag": "li",
-                                        "lines": "86,87"
-                                    }
-                                }
-                            ],
-                            "payload": {
-                                "tag": "h3",
-                                "lines": "84,85"
-                            }
-                        },
-                        {
-                            "content": "（四）城镇农村的合作经济组织法人",
-                            "children": [
-                                {
-                                    "content": "定义：同类产品或产业生产者、经营者、服务提供者等，自愿联合，互助合作、民主管理，实现成员利益的互助性经济组织法人",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
+                                        "tag": "h5",
                                         "lines": "88,89"
-                                    }
-                                }
-                            ],
-                            "payload": {
-                                "tag": "h3",
-                                "lines": "87,88"
-                            }
-                        },
-                        {
-                            "content": "（五）基层群众性自治组织法人",
-                            "children": [
-                                {
-                                    "content": "定义：城市居民、农村村民依宪法法律，民主选举实现 “自我管理、自我教育、自我服务” 的基层自治社会组织法人（如居委会、村委会 ）",
-                                    "children": [],
-                                    "payload": {
-                                        "tag": "li",
-                                        "lines": "90,91"
                                     }
                                 },
                                 {
-                                    "content": "典型真题：特别法人包括机关法人、农村集体经济组织法人（选项 A、D 正确 ）",
-                                    "children": [],
+                                    "content": "（五）基层群众性自治组织法人",
+                                    "children": [
+                                        {
+                                            "content": "定义：城市居民、农村村民依宪法法律，民主选举实现 “自我管理、自我教育、自我服务” 的基层自治社会组织法人（如居委会、村委会 ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "91,92"
+                                            }
+                                        },
+                                        {
+                                            "content": "典型真题：特别法人包括机关法人、农村集体经济组织法人（选项 A、D 正确 ）",
+                                            "children": [],
+                                            "payload": {
+                                                "tag": "li",
+                                                "lines": "92,93"
+                                            }
+                                        }
+                                    ],
                                     "payload": {
-                                        "tag": "li",
-                                        "lines": "91,92"
+                                        "tag": "h5",
+                                        "lines": "90,91"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "89,90"
+                                "tag": "h4",
+                                "lines": "78,79"
                             }
                         }
                     ],
                     "payload": {
-                        "tag": "h2",
-                        "lines": "77,78"
+                        "tag": "h3",
+                        "lines": "39,40"
                     }
                 }
             ],
             "payload": {
-                "tag": "h1",
-                "lines": "38,39"
+                "tag": "h2",
+                "lines": "4,5"
             }
         },
         {
@@ -683,7 +678,7 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "95,96"
+                                        "lines": "96,97"
                                     }
                                 },
                                 {
@@ -691,7 +686,7 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "96,97"
+                                        "lines": "97,98"
                                     }
                                 },
                                 {
@@ -699,13 +694,13 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "97,98"
+                                        "lines": "98,99"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "94,95"
+                                "tag": "h4",
+                                "lines": "95,96"
                             }
                         },
                         {
@@ -716,7 +711,7 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "99,100"
+                                        "lines": "100,101"
                                     }
                                 },
                                 {
@@ -727,7 +722,7 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "101,102"
+                                                "lines": "102,103"
                                             }
                                         },
                                         {
@@ -735,19 +730,19 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "102,103"
+                                                "lines": "103,104"
                                             }
                                         }
                                     ],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "100,103"
+                                        "lines": "101,104"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "98,99"
+                                "tag": "h4",
+                                "lines": "99,100"
                             }
                         },
                         {
@@ -758,13 +753,13 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "104,105"
+                                        "lines": "105,106"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "103,104"
+                                "tag": "h4",
+                                "lines": "104,105"
                             }
                         },
                         {
@@ -775,7 +770,7 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "106,107"
+                                        "lines": "107,108"
                                     }
                                 },
                                 {
@@ -783,13 +778,13 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "107,108"
+                                        "lines": "108,109"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "105,106"
+                                "tag": "h4",
+                                "lines": "106,107"
                             }
                         },
                         {
@@ -800,7 +795,7 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "109,110"
+                                        "lines": "110,111"
                                     }
                                 },
                                 {
@@ -808,19 +803,19 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "110,111"
+                                        "lines": "111,112"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "108,109"
+                                "tag": "h4",
+                                "lines": "109,110"
                             }
                         }
                     ],
                     "payload": {
-                        "tag": "h2",
-                        "lines": "93,94"
+                        "tag": "h3",
+                        "lines": "94,95"
                     }
                 },
                 {
@@ -837,19 +832,19 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "114,115"
+                                                "lines": "115,116"
                                             }
                                         }
                                     ],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "113,115"
+                                        "lines": "114,116"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "112,113"
+                                "tag": "h4",
+                                "lines": "113,114"
                             }
                         },
                         {
@@ -863,7 +858,7 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "117,118"
+                                                "lines": "118,119"
                                             }
                                         },
                                         {
@@ -874,19 +869,19 @@ var chapter4 = {
                                                     "children": [],
                                                     "payload": {
                                                         "tag": "li",
-                                                        "lines": "119,120"
+                                                        "lines": "120,121"
                                                     }
                                                 }
                                             ],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "118,120"
+                                                "lines": "119,121"
                                             }
                                         }
                                     ],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "116,120"
+                                        "lines": "117,121"
                                     }
                                 },
                                 {
@@ -900,19 +895,19 @@ var chapter4 = {
                                                     "children": [],
                                                     "payload": {
                                                         "tag": "li",
-                                                        "lines": "122,123"
+                                                        "lines": "123,124"
                                                     }
                                                 }
                                             ],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "121,123"
+                                                "lines": "122,124"
                                             }
                                         }
                                     ],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "120,123"
+                                        "lines": "121,124"
                                     }
                                 },
                                 {
@@ -920,13 +915,13 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "123,124"
+                                        "lines": "124,125"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "115,116"
+                                "tag": "h4",
+                                "lines": "116,117"
                             }
                         },
                         {
@@ -937,19 +932,19 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "125,126"
+                                        "lines": "126,127"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "124,125"
+                                "tag": "h4",
+                                "lines": "125,126"
                             }
                         }
                     ],
                     "payload": {
-                        "tag": "h2",
-                        "lines": "111,112"
+                        "tag": "h3",
+                        "lines": "112,113"
                     }
                 },
                 {
@@ -966,7 +961,7 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "129,130"
+                                                "lines": "130,131"
                                             }
                                         },
                                         {
@@ -974,13 +969,13 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "130,131"
+                                                "lines": "131,132"
                                             }
                                         }
                                     ],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "128,131"
+                                        "lines": "129,132"
                                     }
                                 },
                                 {
@@ -988,13 +983,13 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "131,132"
+                                        "lines": "132,133"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "127,128"
+                                "tag": "h4",
+                                "lines": "128,129"
                             }
                         },
                         {
@@ -1008,7 +1003,7 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "134,135"
+                                                "lines": "135,136"
                                             }
                                         },
                                         {
@@ -1016,13 +1011,13 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "135,136"
+                                                "lines": "136,137"
                                             }
                                         }
                                     ],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "133,136"
+                                        "lines": "134,137"
                                     }
                                 },
                                 {
@@ -1030,13 +1025,13 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "136,137"
+                                        "lines": "137,138"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "132,133"
+                                "tag": "h4",
+                                "lines": "133,134"
                             }
                         },
                         {
@@ -1050,7 +1045,7 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "139,140"
+                                                "lines": "140,141"
                                             }
                                         },
                                         {
@@ -1058,13 +1053,13 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "140,141"
+                                                "lines": "141,142"
                                             }
                                         }
                                     ],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "138,141"
+                                        "lines": "139,142"
                                     }
                                 },
                                 {
@@ -1075,25 +1070,25 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "142,143"
+                                                "lines": "143,144"
                                             }
                                         }
                                     ],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "141,143"
+                                        "lines": "142,144"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "137,138"
+                                "tag": "h4",
+                                "lines": "138,139"
                             }
                         }
                     ],
                     "payload": {
-                        "tag": "h2",
-                        "lines": "126,127"
+                        "tag": "h3",
+                        "lines": "127,128"
                     }
                 },
                 {
@@ -1107,7 +1102,7 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "145,146"
+                                        "lines": "146,147"
                                     }
                                 },
                                 {
@@ -1115,7 +1110,7 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "146,147"
+                                        "lines": "147,148"
                                     }
                                 },
                                 {
@@ -1126,19 +1121,19 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "148,149"
+                                                "lines": "149,150"
                                             }
                                         }
                                     ],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "147,149"
+                                        "lines": "148,150"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "144,145"
+                                "tag": "h4",
+                                "lines": "145,146"
                             }
                         },
                         {
@@ -1149,7 +1144,7 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "150,151"
+                                        "lines": "151,152"
                                     }
                                 },
                                 {
@@ -1157,7 +1152,7 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "151,152"
+                                        "lines": "152,153"
                                     }
                                 },
                                 {
@@ -1165,7 +1160,7 @@ var chapter4 = {
                                     "children": [],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "152,153"
+                                        "lines": "153,154"
                                     }
                                 },
                                 {
@@ -1176,7 +1171,7 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "154,155"
+                                                "lines": "155,156"
                                             }
                                         },
                                         {
@@ -1184,7 +1179,7 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "155,156"
+                                                "lines": "156,157"
                                             }
                                         },
                                         {
@@ -1192,49 +1187,54 @@ var chapter4 = {
                                             "children": [],
                                             "payload": {
                                                 "tag": "li",
-                                                "lines": "156,157"
+                                                "lines": "157,158"
                                             }
                                         }
                                     ],
                                     "payload": {
                                         "tag": "li",
-                                        "lines": "153,157"
+                                        "lines": "154,158"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "149,150"
+                                "tag": "h4",
+                                "lines": "150,151"
                             }
                         },
                         {
                             "content": "（三）各类法人重要考点汇总表",
                             "children": [
                                 {
-                                    "content": "<table data-lines=\"158,165\">\n<thead data-lines=\"158,159\">\n<tr data-lines=\"158,159\">\n<th>类型</th>\n<th>设立要件</th>\n<th>目的</th>\n<th>法人机构</th>\n<th>利润分配</th>\n<th>终止时剩余财产分配</th>\n</tr>\n</thead>\n<tbody data-lines=\"160,165\">\n<tr data-lines=\"160,161\">\n<td>营利法人</td>\n<td>登记</td>\n<td>营利</td>\n<td>权力、执行、监督</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr data-lines=\"161,162\">\n<td>捐助法人（非营利 ）</td>\n<td>登记</td>\n<td>公益</td>\n<td>决策、执行、监管</td>\n<td>否</td>\n<td>否</td>\n</tr>\n<tr data-lines=\"162,163\">\n<td>事业单位（非营利 ）</td>\n<td>登记/成立</td>\n<td>公益</td>\n<td>可设理事会为决策机构</td>\n<td>否</td>\n<td>否</td>\n</tr>\n<tr data-lines=\"163,164\">\n<td>社会团体（非营利 ）</td>\n<td>登记/成立</td>\n<td>公益、其他非营利</td>\n<td>权力、执行</td>\n<td>否</td>\n<td>否</td>\n</tr>\n<tr data-lines=\"164,165\">\n<td>机关法人（特别 ）</td>\n<td>成立</td>\n<td>——</td>\n<td>——</td>\n<td>——</td>\n<td>是</td>\n</tr>\n</tbody>\n</table>",
+                                    "content": "<table data-lines=\"159,166\">\n<thead data-lines=\"159,160\">\n<tr data-lines=\"159,160\">\n<th>类型</th>\n<th>设立要件</th>\n<th>目的</th>\n<th>法人机构</th>\n<th>利润分配</th>\n<th>终止时剩余财产分配</th>\n</tr>\n</thead>\n<tbody data-lines=\"161,166\">\n<tr data-lines=\"161,162\">\n<td>营利法人</td>\n<td>登记</td>\n<td>营利</td>\n<td>权力、执行、监督</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr data-lines=\"162,163\">\n<td>捐助法人（非营利 ）</td>\n<td>登记</td>\n<td>公益</td>\n<td>决策、执行、监管</td>\n<td>否</td>\n<td>否</td>\n</tr>\n<tr data-lines=\"163,164\">\n<td>事业单位（非营利 ）</td>\n<td>登记/成立</td>\n<td>公益</td>\n<td>可设理事会为决策机构</td>\n<td>否</td>\n<td>否</td>\n</tr>\n<tr data-lines=\"164,165\">\n<td>社会团体（非营利 ）</td>\n<td>登记/成立</td>\n<td>公益、其他非营利</td>\n<td>权力、执行</td>\n<td>否</td>\n<td>否</td>\n</tr>\n<tr data-lines=\"165,166\">\n<td>机关法人（特别 ）</td>\n<td>成立</td>\n<td>——</td>\n<td>——</td>\n<td>——</td>\n<td>是</td>\n</tr>\n</tbody>\n</table>",
                                     "children": [],
                                     "payload": {
                                         "tag": "table",
-                                        "lines": "158,165"
+                                        "lines": "159,166"
                                     }
                                 }
                             ],
                             "payload": {
-                                "tag": "h3",
-                                "lines": "157,158"
+                                "tag": "h4",
+                                "lines": "158,159"
                             }
                         }
                     ],
                     "payload": {
-                        "tag": "h2",
-                        "lines": "143,144"
+                        "tag": "h3",
+                        "lines": "144,145"
                     }
                 }
             ],
             "payload": {
-                "tag": "h1",
-                "lines": "92,93"
+                "tag": "h2",
+                "lines": "93,94"
             }
         }
-    ]
+    ],
+    "payload": {
+        "tag": "h1",
+        "lines": "0,1"
+    }
 }
+          
