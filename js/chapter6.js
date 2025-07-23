@@ -1,37 +1,37 @@
 // chapter1.js
 var chapter6 = {
-    "content": "",
+    "content": "第六章 民事法律行为",
     "children": [
-        {
-            "content": "第六章 民事法律行为",
+    {
+            "content": "备考点睛",
             "children": [
                 {
-                    "content": "备考点睛",
-                    "children": [
-                        {
-                            "content": "地位：民法重要考点，体现民法抽象概念，是民法总则基础，关乎民法学习入门标准",
-                            "children": [],
-                            "payload": {
-                                "tag": "li",
-                                "lines": "2,3"
-                            }
-                        },
-                        {
-                            "content": "要求：掌握含义、特征、类型；结合《民法典》等掌握意思表示、行为效力等规则，理解附条件与附期限行为",
-                            "children": [],
-                            "payload": {
-                                "tag": "li",
-                                "lines": "3,4"
-                            }
-                        }
-                    ],
+                    "content": "地位：民法重要考点，体现民法抽象概念，是民法总则基础，关乎民法学习入门标准",
+                    "children": [],
                     "payload": {
                         "tag": "li",
-                        "lines": "1,4"
+                        "lines": "2,3"
                     }
                 },
                 {
-                    "content": "第一节 民事法律行为概述",
+                    "content": "要求：掌握含义、特征、类型；结合《民法典》等掌握意思表示、行为效力等规则，理解附条件与附期限行为",
+                    "children": [],
+                    "payload": {
+                        "tag": "li",
+                        "lines": "3,4"
+                    }
+                }
+            ],
+            "payload": {
+                "tag": "li",
+                "lines": "1,4"
+            }
+        },
+        {
+            "content": "第一节 民事法律行为概述",
+            "children": [
+                {
+                    "content": "一、民事法律行为的含义与特征",
                     "children": [
                         {
                             "content": "含义与特征",
@@ -82,7 +82,7 @@ var chapter6 = {
                     }
                 },
                 {
-                    "content": "第二节 民事法律行为的分类",
+                    "content": "二、民事法律行为的分类",
                     "children": [
                         {
                             "content": "分类标准及类型",

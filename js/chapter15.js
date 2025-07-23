@@ -1402,7 +1402,7 @@ var chapter15 = {
             }
         },
         {
-            "content": "专利权",
+            "content": "第三章 专利权",
             "children": [
                 {
                     "content": "专利权主体",
@@ -1752,7 +1752,7 @@ var chapter15 = {
             }
         },
         {
-            "content": "商标权",
+            "content": "第四章 商标权",
             "children": [
                 {
                     "content": "备考点睛",

@@ -1,6 +1,6 @@
 // chapter1.js
 var chapter9 =  {
-    "content": "人格权概述",
+    "content": "人格权",
     "children": [
         {
             "content": "本编导言",
