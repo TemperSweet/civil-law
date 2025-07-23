@@ -1,184 +1,186 @@
 var chapter14 = {
-    title: '第二章 - 犯罪概念',
-    content: '犯罪概念',
-    children: [
+    "content": "第五章 占有",
+    "children": [
         {
-            content: '<strong>犯罪论总览</strong>',
-            children: [
+            "content": "备考点睛",
+            "children": [
                 {
-                    content: '逻辑脉络：什么是犯罪→定罪标准→犯罪的时间推进→犯罪的空间分布→定几个罪',
-                    children: [],
-                    payload: { tag: 'li', lines: '1,2' }
+                    "content": "占有是对物事实支配状态，受法律保护，对应《民法典·物权编》相关规定",
+                    "children": [],
+                    "payload": {
+                        "tag": "li",
+                        "lines": "2,3"
+                    }
                 },
                 {
-                    content: '涵盖内容：犯罪构成、犯罪形态、共同犯罪、罪数问题等',
-                    children: [],
-                    payload: { tag: 'li', lines: '2,3' }
+                    "content": "学习要求：了解含义特征，掌握分类、善意与恶意占有权利义务区别、占有保护请求权规则",
+                    "children": [],
+                    "payload": {
+                        "tag": "li",
+                        "lines": "3,4"
+                    }
                 }
             ],
-            payload: { tag: 'h2', lines: '0,1' }
+            "payload": {
+                "tag": "li",
+                "lines": "1,4"
+            }
         },
         {
-            content: '<strong>犯罪的定义</strong>',
-            children: [
+            "content": "第一节 占有概述",
+            "children": [
                 {
-                    content: '定义类型',
-                    children: [
+                    "content": "占有的概念与特征",
+                    "children": [
                         {
-                            content: '形式概念：依刑法明文规定，限定犯罪范围',
-                            children: [],
-                            payload: { tag: 'li', lines: '5,6' }
+                            "content": "概念：对物有事实上管领力的状态，是事实非权利",
+                            "children": [],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "6,7"
+                            }
                         },
                         {
-                            content: '实质概念：聚焦社会危害性，阐明犯罪被规制理由',
-                            children: [],
-                            payload: { tag: 'li', lines: '6,7' }
-                        },
-                        {
-                            content: '形式与实质结合：司法实践需对符合形式要件行为作实质评价',
-                            children: [],
-                            payload: { tag: 'li', lines: '7,8' }
+                            "content": "特征：客体限于有体物；需对物事实支配与控制",
+                            "children": [],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "7,8"
+                            }
                         }
                     ],
-                    payload: { tag: 'li', lines: '4,8' }
+                    "payload": {
+                        "tag": "li",
+                        "lines": "5,8"
+                    }
                 },
                 {
-                    content: '不同定义反映的犯罪观',
-                    children: [
+                    "content": "占有的分类",
+                    "children": [
                         {
-                            content: '形式意义：刑法明文规定应受刑罚惩罚的行为',
-                            children: [],
-                            payload: { tag: 'li', lines: '9,10' }
-                        },
-                        {
-                            content: '实质意义',
-                            children: [
+                            "content": "有权占有与无权占有（依是否有本权）",
+                            "children": [
                                 {
-                                    content: '行为规范违反说：违反基本社会行为规范',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '11,12' }
-                                },
-                                {
-                                    content: '法益侵害说：侵害国家、社会或个人法益',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '12,13' }
-                                },
-                                {
-                                    content: '二元说：既违规范又侵法益，现多综合分析',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '13,14' }
+                                    "content": "无权占有又分善意占有、恶意占有",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "10,11"
+                                    }
                                 }
                             ],
-                            payload: { tag: 'li', lines: '10,14' }
+                            "payload": {
+                                "tag": "li",
+                                "lines": "9,11"
+                            }
+                        },
+                        {
+                            "content": "直接占有与间接占有（依是否直接占有物）",
+                            "children": [],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "11,12"
+                            }
+                        },
+                        {
+                            "content": "自主占有与他主占有（依占有人意思）",
+                            "children": [],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "12,13"
+                            }
                         }
                     ],
-                    payload: { tag: 'li', lines: '8,14' }
-                },
-                {
-                    content: '我国刑法中的犯罪定义（《刑法》第13条 ）',
-                    children: [
-                        {
-                            content: '概念：危害社会、依法应受刑罚处罚，形式与实质统一',
-                            children: [],
-                            payload: { tag: 'li', lines: '15,16' }
-                        },
-                        {
-                            content: '基本特征',
-                            children: [
-                                {
-                                    content: '实质特征：严重危害社会，具严重社会危害性。无危害性或情节显著轻微危害不大，不认定为犯罪；是犯罪本质特征，因犯罪违社会规范、侵法益',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '17,18' }
-                                },
-                                {
-                                    content: '形式特征：触犯刑律，具刑事违法性。是法制原则要求，主客观统一，缺故意/过失或未实施危害行为，无刑事违法性',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '18,19' }
-                                },
-                                {
-                                    content: '法律后果：应受刑罚惩罚，具应受刑罚惩罚性。法院可裁量不实际用刑，犯罪是形式与实质统一（如倒卖机票因无规定缺形式要件；正当防卫缺实质危害性，均不构成犯罪 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '19,20' }
-                                }
-                            ],
-                            payload: { tag: 'li', lines: '16,20' }
-                        },
-                        {
-                            content: '但书规定：“情节显著轻微危害不大的，不认为是犯罪”',
-                            children: [
-                                {
-                                    content: '内涵：性质上犯罪不能情节显著轻微，程度上不能危害不大',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '21,22' }
-                                },
-                                {
-                                    content: '意义：要求合理定危害“程度”；缩小犯罪/刑事处罚范围，利于行为人改过、配置司法资源；与第13条定量要求一致，区分“但书”与无罪（符合则不构成，构成则不符合 ）',
-                                    children: [],
-                                    payload: { tag: 'li', lines: '22,23' }
-                                }
-                            ],
-                            payload: { tag: 'li', lines: '20,23' }
-                        }
-                    ],
-                    payload: { tag: 'li', lines: '14,23' }
+                    "payload": {
+                        "tag": "li",
+                        "lines": "8,13"
+                    }
                 }
             ],
-            payload: { tag: 'h2', lines: '3,4' }
+            "payload": {
+                "tag": "li",
+                "lines": "4,13"
+            }
         },
         {
-            content: '<strong>我国刑法中的犯罪分类</strong>',
-            children: [
+            "content": "第二节 占有的效力和保护",
+            "children": [
                 {
-                    content: '自然犯与法定犯',
-                    children: [
+                    "content": "占有的效力",
+                    "children": [
                         {
-                            content: '自然犯：违社会伦理道德（如杀人、放火 ），凭经验可判断，构成要件稳定',
-                            children: [],
-                            payload: { tag: 'li', lines: '25,26' }
+                            "content": "权利推定效力：推定占有人享有占有物上权利",
+                            "children": [],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "15,16"
+                            }
                         },
                         {
-                            content: '法定犯：违行政管理法规（如走私、交通肇事 ），具二次违法性，构成要件常变',
-                            children: [],
-                            payload: { tag: 'li', lines: '26,27' }
+                            "content": "权利取得效力：符合要件可取得本权（善意取得等）",
+                            "children": [],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "16,17"
+                            }
                         }
                     ],
-                    payload: { tag: 'li', lines: '24,27' }
+                    "payload": {
+                        "tag": "li",
+                        "lines": "14,17"
+                    }
                 },
                 {
-                    content: '国事犯与普通犯',
-                    children: [
+                    "content": "占有的保护",
+                    "children": [
                         {
-                            content: '国事犯：危害国家安全，犯罪分子应被剥夺政治权利，可没收财产',
-                            children: [],
-                            payload: { tag: 'li', lines: '28,29' }
+                            "content": "占有请求权",
+                            "children": [
+                                {
+                                    "content": "占有物返还请求权：占有人被侵夺时可主张，自侵占发生日起1年未行使则消灭",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "19,20"
+                                    }
+                                },
+                                {
+                                    "content": "排除妨害和消除危险请求权：对妨害占有行为或危险，可请求排除、消除",
+                                    "children": [],
+                                    "payload": {
+                                        "tag": "li",
+                                        "lines": "20,21"
+                                    }
+                                }
+                            ],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "18,21"
+                            }
                         },
                         {
-                            content: '普通犯：危害国家安全犯罪以外的犯罪',
-                            children: [],
-                            payload: { tag: 'li', lines: '29,30' }
+                            "content": "损害赔偿请求权：占有被侵夺或妨害致损，可请求赔偿",
+                            "children": [],
+                            "payload": {
+                                "tag": "li",
+                                "lines": "21,22"
+                            }
                         }
                     ],
-                    payload: { tag: 'li', lines: '27,30' }
-                },
-                {
-                    content: '亲告罪与非亲告罪',
-                    children: [
-                        {
-                            content: '亲告罪：被害人告诉才处理，法院不告不理。含侮辱、诽谤（原则亲告，严重危害除外 ），暴力干涉婚姻自由（致死亡除外 ），虐待（致重伤、死亡除外 ），侵占（全部亲告 ）',
-                            children: [],
-                            payload: { tag: 'li', lines: '31,32' }
-                        },
-                        {
-                            content: '非亲告罪：亲告罪外的犯罪（如强奸 ），被害人不告诉，司法机关也追刑责，多为公诉案件',
-                            children: [],
-                            payload: { tag: 'li', lines: '32,33' }
-                        }
-                    ],
-                    payload: { tag: 'li', lines: '30,33' }
+                    "payload": {
+                        "tag": "li",
+                        "lines": "17,22"
+                    }
                 }
             ],
-            payload: { tag: 'h2', lines: '23,24' }
+            "payload": {
+                "tag": "li",
+                "lines": "13,22"
+            }
         }
     ],
-    payload: { tag: 'h1', lines: ' ' }
-};
+    "payload": {
+        "tag": "h2",
+        "lines": "0,1"
+    }
+}
